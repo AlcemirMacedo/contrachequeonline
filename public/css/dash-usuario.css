@@ -1,0 +1,106 @@
+:root {
+    --primary-collor: #666;
+    --secundary-collor: #19899d;
+    --white-color:#dce3ed;
+    --white-color2:#b6bec9;
+    --green-collor: #72f2ae;
+    --orange-collor: #dea373;
+    --yellow-collor: #eedd6b;
+
+}
+
+body{
+    margin-top: 15px;
+    background-color: #dce3ed;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 12pt;
+    color: var(--primary-collor);
+}
+
+
+.user-info, .dados-empresa{
+    color: var(--secundary-collor);
+    font-weight: bold;
+}
+
+.dados-empresa-div{
+    line-height: 30%;
+}
+button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--secundary-collor);
+    color: var(--white-color);
+    margin-left: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--primary-collor);
+    color: var(--white-color);
+}
+
+.infoGeral{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.info{
+    flex: 1;
+    margin: 3px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #000;
+}
+.prov{
+    background-color: var(--green-collor);
+}
+.desc{
+    background-color: var(--orange-collor);
+}
+.liq{
+    background-color: var(--yellow-collor);
+}
+.valor{
+    font-weight: bold;
+    font-size: 11pt;
+}
+.accordion{
+    margin-top: 20px;
+
+}
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:visited{
+    text-decoration: none;
+    font-style: none;
+    color: var(--primary-collor);
+}
+.card{
+    color: var(--primary-collor);
+    background-color: var(--white-color2);
+
+}
+.card-header{
+    transition: all 1s;
+}
+.card-body{
+    background-color: var(--white-color);
+}
+.bi{
+    position: absolute;
+    text-align: center;
+    right: 20px;
+}
+
+
+

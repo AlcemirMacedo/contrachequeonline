@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+    background-color: #dce3ed;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.card{
+    width: 320px;
+    border: none;
+    color: #afafaf;
+    box-shadow: 0px 0px 10px #acacac;
+    background-color: #252f39;
+}
+
+.card img{
+    width: 130px;
+    margin: 20px 0px 10px;
+}
+
+.card .card-body .form-row .form-group{
+    margin: 10px 0px 20px;
+}
+
+.card .card-body form input{
+    border-radius: 0px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #afafaf;
+    color: #fff;
+    box-shadow: none;
+}
+
+.card .card-body .btn-success{
+    background-color: #1c9eb4;
+}
+.card .card-body .btn-success:hover{
+    background-color: #19899d;
+}
+
+.card .card-body form label{
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+    transition: ease-in-out .3s;
+}
+
+.card .card-body form input:focus ~ label,
+.card .card-body form input:valid ~ label{
+    top: -55px;
+    margin-left: 0px;
+}
+
+
+
+
+
+/* Mobile Device */
+@media screen and (max-width: 500px){
+    body{
+        background-color: #252f39;
+    }
+    .card{
+        box-shadow: none;
+
+    }
+}

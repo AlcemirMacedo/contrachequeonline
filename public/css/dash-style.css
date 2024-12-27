@@ -1,0 +1,60 @@
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dce3ed;
+    color: #666;
+}
+.navbar{
+    background-color: #252f39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.navbar .navbar-brand .img-fluid{
+   width: 80px;
+}
+.navbar .navbar-brand{
+    /* position: absolute; */
+    margin-left: 10px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: #fff;
+
+}
+.navbar .collapse .navbar-nav .nav-item{
+    width: 100px;
+    text-align: center;
+
+}
+
+
+#myFrame{
+    position: absolute;
+    height: calc(100vh - 75px);
+    top:75px;
+
+}
+
+
+
+/* Mobile Device */
+@media screen and (max-width: 500px){
+    .navbar .navbar-brand{
+        position: relative;
+        margin-left: 10px;
+    }
+    .navbar .navbar-brand .img-fluid{
+        width: 50px;
+    }
+    .navbar .collapse .navbar-nav .nav-item{
+        width: 100%;
+    }
+    .navbar-toggler{
+        color: #fff;
+        border: #fff 1px solid;
+    }
+}
