@@ -1,21 +1,33 @@
 
+:root {
+    --primary-collor: #666;
+    --secundary-collor: #19899d;
+    --white-color:#dce3ed;
+    --white-color2:#b6bec9;
+    --green-collor: #72f2ae;
+    --orange-collor: #dea373;
+    --yellow-collor: #eedd6b;
+
+}
 
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #dce3ed;
-    color: #666;
+    color: var(--white-color);
 }
 .navbar{
     background-color: #252f39;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
 
 }
-.navbar .navbar-brand .img-fluid{
-   width: 80px;
+
+.sair{
+    position: absolute;
+    right: 10px;
 }
 .navbar .navbar-brand{
     /* position: absolute; */

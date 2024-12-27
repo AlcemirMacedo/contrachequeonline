@@ -18,6 +18,7 @@
             <h3>Olá, <span class="user-info">Alcemir Macêdo</span>! Sua matrícula: <span class="user-info">669.528.592-68</span></h3>
         </div>
         <div><button>Ano 2024</button> <button>Dezembro</button></div>
+
     </header>
     <hr>
 
@@ -47,9 +48,19 @@
 
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                  Nome: <span class="user-info">Alcemir Macedo de Souza</span><br>
-                  Matrículas: <span class="user-info">66952859268 / 92983563052</span><br>
-                  CPF: <span class="user-info">Alcemir Macedo de Souza</span><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>CPF: <span class="user-info">789.558.578-55</span><br></p>
+                            <p>Nome: <span class="user-info">Alcemir Macedo de Souza</span><br></p>
+                            <p>Matrículas: <span class="user-info">66952859268 / 92983563052</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Nome da Mãe: <span class="user-info">Socorro Cavalcanti Maciel</span></p>
+                            <p>Nome do Pai: <span class="user-info">Alvez Camaruel Glouber</span></p>
+                        </div>
+                    </div>
+                    <hr>
+
                 </div>
               </div>
             </div>
@@ -100,6 +111,9 @@
               </div>
           </div>
     </section>
+    <div>
+        <p></p>
+    </div>
 
 
     <script type="text/javascript" src="{{asset('js/jquery-3.4.0.min.js')}}"></script>

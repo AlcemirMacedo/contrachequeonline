@@ -6,7 +6,6 @@
     --green-collor: #72f2ae;
     --orange-collor: #dea373;
     --yellow-collor: #eedd6b;
-
 }
 
 body{
@@ -46,6 +45,7 @@ button{
     transition: all 0.2s;
     cursor: pointer;
 }
+
 button:hover{
     background-color: var(--primary-collor);
     color: var(--white-color);
@@ -89,6 +89,9 @@ button:hover{
     color: var(--primary-collor);
     background-color: var(--white-color2);
 
+}
+.card p{
+    line-height: 40%;
 }
 .card-header{
     transition: all 1s;

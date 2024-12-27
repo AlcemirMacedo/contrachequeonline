@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contracheque Online | Administrador</title>
+    <title>Contracheque Online | Usuário</title>
 
     <link rel="stylesheet" href="{{asset('bootstrap-5.3.3-dist/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('bootstrap-icons-1.11.3/font/bootstrap-icons.min.css')}}">
@@ -25,8 +25,8 @@
                 @csrf
                 <section class="form-row">
                     <section class="form-group col-md-12">
-                        <input type="text" name="email" class="form-control" required>
-                        <label>E-mail</label>
+                        <input type="text" name="cpf" class="form-control" required>
+                        <label>CPF:</label>
                     </section>
                 </section>
                 <section class="form-row">

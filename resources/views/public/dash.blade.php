@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('bootstrap-4.1.3-dist/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('bootstrap-icons-1.11.3/font/bootstrap-icons.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/dash-style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/global-style.css') }}">
 
     <script type="text/javascript" src="{{asset('js/sweetalert.min.js')}}"></script>
 
@@ -17,8 +18,9 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
         <a class="navbar-brand">
             {{-- <img class="img-fluid" src="{{asset('img/logo-w.png')}}"> --}}
-            <h2>Sistema de Contra-cheque Online</h2>
+            <h2>Contra-cheque Online</h2>
         </a>
+        <div class="sair"><a href="/">Sair <i class="bi bi-box-arrow-right"></i></a></div>
 
         {{-- <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myCollapse" aria-controls="myCollapse" aria-expanded="false">
             <i class="bi bi-list"></i>

@@ -1,0 +1,21 @@
+:root {
+    --primary-collor: #666;
+    --secundary-collor: #19899d;
+    --white-color:#dce3ed;
+    --white-color2:#b6bec9;
+    --green-collor: #72f2ae;
+    --orange-collor: #dea373;
+    --yellow-collor: #eedd6b;
+
+}
+
+a{
+    color: var(--white-color);
+}
+a:hover{
+    color: var(--white-color);
+    text-decoration: none;
+    color: var(--green-collor);
+}
+
+
