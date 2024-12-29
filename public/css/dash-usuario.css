@@ -25,6 +25,11 @@ h3{
     color: var(--primary-collor);
 }
 
+.ym-button {
+    background-color: ;
+    width: 80px;
+}
+
 
 .user-info, .dados-empresa{
     color: var(--secundary-collor);
@@ -38,7 +43,7 @@ button{
     border: none;
     height: 50px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: var(--secundary-collor);
     color: var(--white-color);
     margin-left: 20px;

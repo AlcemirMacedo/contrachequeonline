@@ -17,7 +17,64 @@
         <div class="container-fluid">
             <h3>Olá, <span class="user-info">Alcemir Macêdo</span>! Sua matrícula: <span class="user-info">669.528.592-68</span></h3>
         </div>
-        <div><button>Ano 2024</button> <button>Dezembro</button></div>
+        <div>
+          <button type="button" data-toggle="modal" data-target="#exampleModalCenter">Ano 2024</button>
+          <button type="button" data-toggle="modal" data-target="#exampleModalCenter">Dezembro</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Pesquisar Contra-cheque</h5>
+                <button class="ym-button" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Ano</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Escolha o ano</option>
+                    <option value="1">2023</option>
+                    <option value="2">2022</option>
+                    <option value="3">2021</option>
+                    <option value="4">2020</option>
+                    <option value="4">2019</option>
+                  </select>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Mês</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Escolha o Mês</option>
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="4">Maio</option>
+                    <option value="4">Junho</option>
+                    <option value="4">Julho</option>
+                    <option value="4">Agosto</option>
+                    <option value="4">Setembro</option>
+                    <option value="4">Outubro</option>
+                    <option value="4">Novembro</option>
+                    <option value="4">Dezembro</option>
+                  </select>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancela</button>
+                <button type="button" >Confirma</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </header>
     <hr>
@@ -114,6 +171,12 @@
     <div>
         <p></p>
     </div>
+
+    <script>
+      $('#myModal').on('shown.bs.modal', function () {
+          $('#myInput').trigger('focus')
+      })
+    </script>
 
 
     <script type="text/javascript" src="{{asset('js/jquery-3.4.0.min.js')}}"></script>
