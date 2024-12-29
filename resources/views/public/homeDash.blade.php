@@ -32,19 +32,6 @@
                 </button>
               </div>
               <div class="modal-body">
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Ano</label>
-                  </div>
-                  <select class="custom-select" id="inputGroupSelect01">
-                    <option selected>Escolha o ano</option>
-                    <option value="1">2023</option>
-                    <option value="2">2022</option>
-                    <option value="3">2021</option>
-                    <option value="4">2020</option>
-                    <option value="4">2019</option>
-                  </select>
-                </div>
 
                 <div class="input-group mb-3">
                   <div class="input-group-prepend">
@@ -66,6 +53,22 @@
                     <option value="4">Dezembro</option>
                   </select>
                 </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Ano</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Escolha o ano</option>
+                    <option value="1">2023</option>
+                    <option value="2">2022</option>
+                    <option value="3">2021</option>
+                    <option value="4">2020</option>
+                    <option value="4">2019</option>
+                  </select>
+                </div>
+
+                
                 
               </div>
               <div class="modal-footer">
