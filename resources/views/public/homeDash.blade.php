@@ -15,7 +15,7 @@
     <header>
 
         <div class="container-fluid">
-            <h3>Olá, <span class="user-info">Alcemir Macêdo</span>! Sua matrícula: <span class="user-info">669.528.592-68</span></h3>
+            <h3>Olá, <span class="user-info">{{ $email }}</span>! Sua matrícula: <span class="user-info">669.528.592-68</span></h3>
         </div>
         <div>
           <button type="button" data-toggle="modal" data-target="#exampleModalCenter">Ano 2024</button>
@@ -68,8 +68,8 @@
                   </select>
                 </div>
 
-                
-                
+
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancela</button>

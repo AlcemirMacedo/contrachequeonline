@@ -20,7 +20,7 @@
             {{-- <img class="img-fluid" src="{{asset('img/logo-w.png')}}"> --}}
             <h2>Contra-cheque Online</h2>
         </a>
-        <div class="sair"><a href="/">Sair <i class="bi bi-box-arrow-right"></i></a></div>
+        <div class="sair"><a href="/logout">Sair <i class="bi bi-box-arrow-right"></i></a></div>
 
         {{-- <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myCollapse" aria-controls="myCollapse" aria-expanded="false">
             <i class="bi bi-list"></i>

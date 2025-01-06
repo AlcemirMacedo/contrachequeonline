@@ -13,7 +13,7 @@ body{
     color: #666;
     background-color: #dce3ed;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
 }
 
@@ -62,8 +62,6 @@ body{
     top: -55px;
     margin-left: 0px;
 }
-
-
 
 
 

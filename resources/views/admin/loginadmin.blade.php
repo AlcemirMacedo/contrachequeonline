@@ -20,35 +20,35 @@
         </figure>
 
         <h2 class="text-center text-white">Login Admin</h2>
-        <section class="card-body">
+        <div class="card-body">
             <form>
-                <section class="form-row">
-                    <section class="form-group col-md-12">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
                         <input type="text" name="email" class="form-control" required>
                         <label>E-mail</label>
-                    </section>
-                </section>
-                <section class="form-row">
-                    <section class="form-group col-md-12">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
                         <input type="password" name="pass" class="form-control" required>
                         <label>Senha</label>
-                    </section>
-                </section>
+                    </div>
+                </div>
                 <!-- <hr class="mx-auto" width="90%"> -->
-                <section class="form-row">
-                    <section class="form-group col-md-12">
-                        <section class="d-grid">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <div class="d-grid">
                             <button type="submit" class="btn btn-success btn-block" title="Acessar sistema">Entrar</button>
-                        </section>
-                    </section>
-                </section>
+                        </div>
+                    </div>
+                </div>
             </form>
 
-            <section class="d-grid">
+            <div class="d-grid">
                 <a href="#" class="btn btn-light btn-block" title="Adicionar novo usuário">Adicionar novo usuário!</a>
-            </section>
+            </div>
 
-        </section>
+        </div>
 
     </section>
 
