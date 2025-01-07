@@ -13,7 +13,6 @@ class loginController extends Controller
 {
     public function login(loginValidateRequst $request){
         // dd($request);
-
         $request->validated();
         $user = userModel::where('use_cpf', $request->cpf)->first();
 
@@ -27,6 +26,5 @@ class loginController extends Controller
         else{
             return back()->with('errorlogin', 'Login inválido')->withInput();
         }
-
     }
 }

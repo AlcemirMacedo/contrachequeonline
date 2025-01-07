@@ -106,7 +106,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Cadastrar Usuário</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -165,7 +165,13 @@
 
     </section>
 
+    <footer class="bg-dark">
+        <i src="{{ asset('img/cconlineLogo.svg') }}"></i>
+    </footer>
+
     <script type="text/javascript" src="{{asset('js/jquery-3.4.0.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('bootstrap-4.1.3-dist/js/bootstrap.min.js')}}"></script>
+
+
 </body>
 </html>
