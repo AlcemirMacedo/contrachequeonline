@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class logoutController extends Controller
 {
     public function logOut(){
-        session_start();
-        session_destroy();
-
+        Session::flush();
         return redirect('/');
     }
 }

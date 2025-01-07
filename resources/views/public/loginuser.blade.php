@@ -67,17 +67,17 @@
                     });
                 </script>
             @endif
-            <form action="/login" method="POST" autocomplete="no">
+            <form action="/login" method="POST" autocomplete="off">
                 @csrf
                 <section class="form-row">
                     <section class="form-group col-md-12">
-                        <input type="text" name="cpf" class="form-control" value="{{ old('cpf') }}" required>
+                        <input type="text" name="cpf" class="form-control" value="{{ old('cpf') }}">
                         <label>CPF:</label>
                     </section>
                 </section>
                 <section class="form-row">
                     <section class="form-group col-md-12">
-                        <input type="password" name="pass" class="form-control" required>
+                        <input type="password" name="pass" class="form-control">
                         <label>Senha</label>
                     </section>
                 </section>
@@ -152,6 +152,16 @@
         </div>
         </div>
     </div>
+
+    @if ($errors->any())
+        <script>
+            swal({
+                title:"Contracheque Online Erro",
+                text:"{{ implode('\n', $errors->all()) }}",
+                icon:"error"
+            });
+        </script>
+    @endif
 
     </section>
 

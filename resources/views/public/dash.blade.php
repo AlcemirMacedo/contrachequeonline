@@ -14,7 +14,6 @@
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
         <a class="navbar-brand">
             {{-- <img class="img-fluid" src="{{asset('img/logo-w.png')}}"> --}}

@@ -13,9 +13,14 @@
 </head>
 <body>
     <header>
+        @foreach ($usuario as $item)
+
+        @endforeach
+
+
 
         <div class="container-fluid">
-            <h3>Olá, <span class="user-info">{{ $email }}</span>! Sua matrícula: <span class="user-info">669.528.592-68</span></h3>
+            <h3>Olá, <span class="user-info">{{ $item->use_name }}</span>! Seu CPF: <span class="user-info">{{ $item->use_cpf }}</span></h3>
         </div>
         <div>
           <button type="button" data-toggle="modal" data-target="#exampleModalCenter">Ano 2024</button>

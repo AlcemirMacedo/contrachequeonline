@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\dashController;
+use App\Http\Controllers\dashHomeController;
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\logoutController;
 use App\Http\Controllers\userController;
@@ -12,9 +13,7 @@ Route::get('/', function () {
 
 Route::get('/dash', [dashController::class, 'viewDash']);
 
-Route::get('/dash/home', function(){
-    return view('public.homeDash');
-});
+Route::get('/dash/home', [dashHomeController::class, 'viewDashHome']);
 
 Route::post('/adduser', [userController::class, 'addUser']);
 
